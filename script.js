@@ -34,5 +34,26 @@ console.log("Volutt landing page cargada correctamente.");
     });
 
 
+    const track = document.querySelector('.carousel-track');
+    const prevBtn = document.querySelector('.carousel-btn.prev');
+    const nextBtn = document.querySelector('.carousel-btn.next');
+    let index = 0;
+
+    function updateCarousel() {
+        const slideWidth = track.children[0].offsetWidth + 40;
+        track.style.transform = `translateX(-${index * slideWidth}px)`;
+    }
+
+    nextBtn.addEventListener('click', () => {
+        if (index < track.children.length - 1) index++;
+        updateCarousel();
+    });
+
+    prevBtn.addEventListener('click', () => {
+        if (index > 0) index--;
+        updateCarousel();
+    });
+
+    window.addEventListener('resize', updateCarousel);
 
 
