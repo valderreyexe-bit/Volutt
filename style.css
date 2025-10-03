@@ -306,7 +306,7 @@ body {
     .stock-banner {
     background: linear-gradient(135deg, #000000, #01ff01be);
     color: white;
-    text-align: justify;
+    text-align: center;
     text-justify: inter-word;
     padding: 16px 20px;
     font-family: 'Archivo Black', sans-serif;
@@ -429,6 +429,7 @@ body {
         white-space: nowrap;
     }
     }
+
 
 
 
