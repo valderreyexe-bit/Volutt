@@ -22,6 +22,8 @@ jobs:
   deploy:
     needs: build
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages   # 👈 Esta línea es la que faltaba para que el deploy funcione
     permissions:
       pages: write
       id-token: write
