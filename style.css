@@ -12,7 +12,7 @@ body {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-image: url('IMG/pexels-it-s-mj-1143455268-20955079.jpg'); /* reemplazá con tu imagen */
+    background-image: url('IMG/fondo.png'); /* reemplazá con tu imagen */
     background-size: cover;
     background-position: center;
     z-index: -1;
@@ -46,12 +46,12 @@ body {
 }
 
 .logo-section {
-    margin-bottom: 40px;
+    margin-bottom: 1px;
     text-align: center;
 }
 
 .logo {
-    width: 600px;
+    width: 400px;
     height: auto;
     margin-bottom: 20px;
      filter: drop-shadow(0 0 3px #00000065); /* resalta el contorno amarillo si lo tiene */
@@ -132,7 +132,7 @@ body {
         font-size: 2.5em;
     }
     .logo {
-        width: 300px;
+        width: 350px;
     }
 }
 
@@ -304,7 +304,7 @@ body {
 
 
     .stock-banner {
-    background: linear-gradient(135deg, #000000, #01ff01be);
+    background: linear-gradient(135deg, #000000, #2326ffbe);
     color: white;
     text-align: center;
     text-justify: inter-word;
@@ -431,6 +431,7 @@ body {
         white-space: nowrap;
     }
     }
+
 
 
 
